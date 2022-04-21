@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2? família=Vazirmatn:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2? família=Vazirmatn&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 21px -5px rgba (0,0,0,0,75);
+    position: fixed;
+    background-color: #fff;
+}
+.logomarca {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.imagem-logo{
+    width: 50px;
+    margin-left: 15px;
+}
+.imagem-logo img {
+    width: 100%;
+    border-radius: 50px;
+}
+.titulo-logo {
+    font-family: 'Vazirmatn', sans-serif;
+    font-weight: bold;
+    color: #004aad;
+    margin-left: 10px;
+}
+.titulo-logo a {
+    text-decoration: none;
+    color: #004aad;
+}
+.menu {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu a{
+    text-decoration: none;
+    color: #004aad;
+    font-family: 'Vazirmatn', sans-serif;
+    font-weight: bold;
+}
+.menu :hover{
+    background-color: #277ff3;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.contato {
+    width: 20%;
+    display: flex;
+    justify-content:center;
+    margin-right: 10px;
+}
+.contato a{
+    text-decoration: none;
+    font-family: 'Vazirmatn', sans-serif;
+    font-weight: bold;
+    padding: 11px;
+    background-color: #004aad;
+    color: white;
+    border-radius: 20px;
+}
+
+/*---- MAIN01 -------*/
+.main1{
+    width: 100%;
+    height: 500px;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+}
+.texto-main1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Vazirmatn', sans-serif;
+    font-weight: bold;
+    color: #004aad;
+}
+.saiba-mais{
+    padding-top: 20px;
+}
+.saiba-mais a{
+    text-decoration: none;
+    background-color: #004aad;
+    color: #ffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.saiba-mais :hover{
+    cursor: pointer;
+    background-color: #0657c2;
+    font-size: 20px;
+}
+.imagem-main1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.imagem-main{
+    width: 450px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.imagem-main img{
+    width: 100%
+}
+
+/*----- MAIN02 -----*/
+.main2{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(to right,  #002b63,  #277cec);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.servicos{
+    display: flex;
+    justify-content: center;
+    font-family: 'Vazirmatn', sans-serif;
+}
+.texto-servicos{
+    margin-top: 10px;
+    padding: 3px 15px;
+    background-color: #fff;
+    color:  #013c8a;
+    border-radius: 8px;
+    text-decoration: underline;
+}
+.servicos-oferecidos{
+    width: 90%;
+    height: 400px;
+    margin-top: 20px;
+    background-image: linear-gradient(to right,  #002555, #277cec);
+    border-radius: 10px;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card1{
+    width: 25%;
+    height: 300px;
+    background-image: url(image/apps1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow:  0.5em 0.4em 0.5em #9248fa;
+    transform: translateY();
+}
+.card2{
+    width: 25%;
+    height: 300px;
+    background-image: url(image/imagem-main1-1.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow:  0.5em 0.4em 0.5em #1612e3;
+    transform: translateY();
+}
+.card3{
+    width: 25%;
+    height: 300px;
+    background-image: url(image/website3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    box-shadow:  0.5em 0.4em 0.5em #383b03;
+    transform: translateY();
+}
+
+/*---Main03----*/
+.main3 {
+    width: 100%;
+    height: 250px;
+    background-color: #f8f8f8f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hardskill{
+    display: flex;
+    justify-content: center;
+    font-family: 'Vazirmatn', sans-serif;
+    margin-top: 5px;
+}
+.texto-skill{
+    padding: 3px 20px;
+    background-color: #0c64d8;
+    color:  #ffff;
+    border-radius: 8px;
+    text-decoration: underline;
+}
+
+.tecnologias{
+    width: 95%;
+    height: 170px;
+    background-color: #ffffffd3;
+    box-shadow: 0.2em 0.4em 0.2em rgb(117, 113, 113);
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.html5{
+    width: 10%;
+    height: 100px;
+    background-color: #ffff;
+    border-radius: 10px;
+}
+.css3{
+    width: 10%;
+    height: 100px;
+    background-color: #ffff;
+    border-radius: 10px;
+}
+.javascript{
+    width: 10%;
+    height: 100px;
+    background-color: #ffff;
+    border-radius: 10px;
+}
+.reactjs{
+    width: 10%;
+    height: 100px;
+    background-color: #ffff;
+    border-radius: 10px;
+}
+.mysql{
+    width: 10%;
+    height: 100px;
+    background-color: #ffff;
+    border-radius: 10px;
+}
+.nodejs{
+    width: 10%;
+    height: 100px;
+    background-color: #ffff;
+    border-radius: 10px;
+}
