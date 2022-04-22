@@ -28,7 +28,7 @@ header {
     margin-left: 5px;
 }
 .imagem-logo{
-    width: 50px;
+    width: 40px;
     margin-left: 15px;
 }
 .imagem-logo img {
@@ -44,6 +44,7 @@ header {
 .titulo-logo a {
     text-decoration: none;
     color: #004aad;
+    font-size: 15px;
 }
 .menu {
     width: 60vw;
