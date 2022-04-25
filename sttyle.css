@@ -36,7 +36,7 @@ header {
     border-radius: 50px;
 }
 .titulo-logo {
-    font-family: 'Vazirmatn', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     color: #004aad;
     margin-left: 10px;
@@ -54,15 +54,17 @@ header {
 .menu a{
     text-decoration: none;
     color: #004aad;
-    font-family: 'Vazirmatn', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
+    animation: both;
 }
 .menu :hover{
     background-color: #277ff3;
     color: white;
-    padding: 8px 20px;
+    padding: 5px 20px;
     border-radius: 20px;
     font-size: 15px;
+    transition: 0.3s;
 }
 .contato {
     width: 20vw;
@@ -72,9 +74,9 @@ header {
 }
 .contato a{
     text-decoration: none;
-    font-family: 'Vazirmatn', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
-    padding: 11px;
+    padding: 6px 10px;
     background-color: #004aad;
     color: white;
     border-radius: 20px;
@@ -94,7 +96,7 @@ header {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    font-family: 'Vazirmatn', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     color: #004aad;
 }
@@ -105,13 +107,15 @@ header {
     text-decoration: none;
     background-color: #004aad;
     color: #ffff;
-    padding: 10px 20px;
+    padding: 7px 20px;
     border-radius: 20px;
+    animation: both;
 }
 .saiba-mais :hover{
     cursor: pointer;
     background-color: #0657c2;
     font-size: 20px;
+    transition: 0.3s;
 }
 .imagem-main1{
     width: 50vw;
@@ -142,7 +146,7 @@ header {
 .servicos{
     display: flex;
     justify-content: center;
-    font-family: 'Vazirmatn', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .texto-servicos{
     margin-top: 10px;
@@ -150,11 +154,11 @@ header {
     background-color: #fff;
     color:  #013c8a;
     border-radius: 8px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .servicos-oferecidos{
-    width: 90vw;
-    height: 300px;
+    width: 95vw;
+    height: 310px;
     margin-top: 20px;
     background-image: linear-gradient(to right,  #428df0,  #277cec);
     display: flex;
@@ -196,12 +200,14 @@ header {
     color: #fff;
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Vazirmatn', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
+    animation: both;
 }
 .link-saibamais1:hover {
     width: 24vw;
-    height: 50px;
+    height: 45px;
+    transition: 0.4s;
 }
 
 .card2-2{
@@ -236,12 +242,14 @@ header {
     color: #fff;
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Vazirmatn', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
+    animation: both;
 }
 .link-saibamais2:hover {
     width: 24vw;
-    height: 50px;
+    height: 45px;
+    transition: 0.4s;
 }
 
 .card3-3{
@@ -270,19 +278,21 @@ header {
     margin-top: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-image: linear-gradient(to right,  #b0b907,  #bbc504);
+    background-image: linear-gradient(to right,  #f2fd1c,  #e9f509);
     border-radius: 8px;
 }
 .link-saibamais3 a {
     color: #004aad ;
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Vazirmatn', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
+    animation: both;
 }
 .link-saibamais3:hover {
     width: 24vw;
-    height: 50px;
+    height: 45px;
+    transition: 0.4s;
 }
 
 /*---Main03----*/
@@ -298,7 +308,7 @@ header {
 .hardskill{
     display: flex;
     justify-content: center;
-    font-family: 'Vazirmatn', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 5px;
 }
 .texto-skill{
@@ -306,7 +316,7 @@ header {
     background-color: #0c64d8;
     color:  #ffff;
     border-radius: 8px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .tecnologias{
@@ -330,11 +340,13 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    animation: forwards;
 }
 .html5:hover{
     width: 12vw;
     height: 110px;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .css3{
@@ -347,11 +359,13 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    animation: forwards;
 }
 .css3:hover{
     width: 12vw;
     height: 110px;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .javascript{
@@ -364,11 +378,13 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    animation: forwards;
 }
 .javascript:hover{
     width: 12vw;
     height: 110px;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .reactjs{
@@ -381,11 +397,13 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    animation: forwards;
 }
 .reactjs:hover{
     width: 12vw;
     height: 110px;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .mysql{
@@ -398,11 +416,13 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    animation: forwards;
 }
 .mysql:hover{
     width: 12vw;
     height: 110px;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .nodejs{
@@ -415,11 +435,13 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    animation: forwards;
 }
 .nodejs:hover{
     width: 12vw;
     height: 110px;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 /*----main4-contato-----*/
